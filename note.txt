@@ -1,0 +1,52 @@
+Bootstrap
+	http://v3.bootcss.com/
+
+	Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。
+
+	使用到大量 Bootstrap 本身预设好的 css 样式
+
+	起步：
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	全局CSS样式：
+		容器：
+			.container -- 固定宽度
+			.container-fluid -- 100%宽度
+		栅格系统：
+			会自动分为最多12列
+			栅格系统用于通过一系列的行（row）与列（column）的组合来创建页面布局
+			.row -- 行，必须包含在容器中
+			.col-xs-
+			.col-sm-
+			.col-md-
+			.col-lg-
+		表格：
+		表单：
+		按钮：
+			.btn
+			.btn-default
+
+
+模块化开发：
+	AMD 规范：异步模块定义
+		requirejs 是 AMD 规范的一种实现
+	CMD 规范：通用模块定义(玉伯)
+		seajs 是 CMD 规范的一种实现
+	CommonJS：
+		nodejs
+
+	requirejs(http://requirejs.org/)
+
+
+项目：
+	电商项目（方向）
+	实现功能：
+		1. 首页
+		2. 登录
+		3. 注册
+		4. 列表页面/专题
+		5. 商品详情
+		6. 购物车
+		7. 确认订单(结算页面)
